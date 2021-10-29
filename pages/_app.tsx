@@ -1,3 +1,4 @@
+import withTwindApp from "@twind/next/app";
 import type { AppProps } from "next/app";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { DevPortalProvider } from "@stoplight/elements-dev-portal";
@@ -23,4 +24,4 @@ function AutmojiDocs({ Component, pageProps }: AppProps) {
   );
 }
 
-export default AutmojiDocs;
+export default withTwindApp(AutmojiDocs);
