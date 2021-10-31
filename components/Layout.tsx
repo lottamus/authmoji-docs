@@ -14,9 +14,7 @@ type LayoutProps = { nodeSlug: string; node?: { id: string } };
 const Layout: React.FC<LayoutProps> = ({ children, nodeSlug, node }) => {
   return (
     <div>
-      <div
-        className={tw`text-gray-900 bg-white dark:(bg-gray-900 text-white) flex flex-col min-h-screen`}
-      >
+      <div className={tw`text-gray-900 bg-white flex flex-col min-h-screen`}>
         <Header />
 
         <div className={tw`relative flex-1 flex flex-grow border-t`}>

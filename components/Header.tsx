@@ -5,7 +5,7 @@ import { tw } from "twind";
 
 export const Header = () => {
   return (
-    <header className={tw`h-16 bg-white dark:bg-gray-900`}>
+    <header className={tw`h-16 bg-white`}>
       <nav className={tw`px-8 mx-auto md:px-0`} style={{ maxWidth: 1500 }}>
         <ul className={tw`flex items-center w-full h-16`}>
           <li className={tw`text-xl text-center flex items-center`}>
@@ -23,7 +23,7 @@ export const Header = () => {
           <li className={tw`flex-grow`} />
 
           <li
-            className={tw`mr-5 text-center text-gray-700 transition-colors duration-150 w-7 hover:text-gray-900 dark:text-gray-400 dark:(hover:text-gray-100)`}
+            className={tw`mr-5 text-center text-gray-700 transition-colors duration-150 w-7 hover:text-gray-900`}
           >
             <a
               href="https://twitter.com/authmoji"
@@ -43,7 +43,7 @@ export const Header = () => {
           </li>
 
           <li
-            className={tw`text-center text-gray-700 transition-colors duration-150 w-7 hover:text-gray-900 dark:text-gray-400 dark:(hover:text-gray-100)`}
+            className={tw`text-center text-gray-700 transition-colors duration-150 w-7 hover:text-gray-900`}
           >
             <a
               href="https://github.com/lottamus/authmoji-docs"
