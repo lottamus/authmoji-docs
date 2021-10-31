@@ -3,19 +3,21 @@ import Image from "next/image";
 import React from "react";
 import { tw } from "twind";
 
+import AuthmojiLogo from "../public/authmoji.png";
+
 export const Header = () => {
   return (
     <header className={tw`h-16 bg-white`}>
-      <nav className={tw`px-8 mx-auto md:px-0`} style={{ maxWidth: 1500 }}>
+      <nav className={tw`px-4 mx-auto`} style={{ maxWidth: 1500 }}>
         <ul className={tw`flex items-center w-full h-16`}>
-          <li className={tw`text-xl text-center flex items-center`}>
+          <li className={tw`text-xl text-center flex items-center relative`}>
             <Link href="/" passHref>
               <Image
                 alt="Authmoj"
-                src="/authmoji.svg"
+                src={AuthmojiLogo}
                 layout="fixed"
-                width={160}
-                height={30}
+                height="30px"
+                width="140px"
               />
             </Link>
           </li>
@@ -23,7 +25,7 @@ export const Header = () => {
           <li className={tw`flex-grow`} />
 
           <li
-            className={tw`mr-5 text-center text-gray-700 transition-colors duration-150 w-7 hover:text-gray-900`}
+            className={tw`mr-4 text-center text-gray-700 transition-colors duration-150 w-7 hover:text-gray-900`}
           >
             <a
               href="https://twitter.com/authmoji"
@@ -31,6 +33,7 @@ export const Header = () => {
               rel="noopener noreferrer"
               data-splitbee-event="External Link"
               data-splitbee-event-type="twitter"
+              className={tw`flex items-center`}
             >
               <Image
                 alt="Twitter"
@@ -51,6 +54,7 @@ export const Header = () => {
               rel="noopener noreferrer"
               data-splitbee-event="External Link"
               data-splitbee-event-type="github"
+              className={tw`flex items-center`}
             >
               <Image
                 alt="GitHub"
