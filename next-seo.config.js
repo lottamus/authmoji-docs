@@ -3,7 +3,7 @@ const defaultConfig = {
   defaultTitle: "Authmoji Docs",
   titleTemplate: "%s | Authmoji Docs",
   description:
-    "Authmoji delivers a robust API and app that helps you verify and secure users and future proof your business using emoji based two-factor authentication.",
+    "Authmoji delivers a robust API that helps you verify users and future proof your business using emoji based two-factor authentication.",
   twitter: {
     handle: "@authmoji",
     site: "@authmoji",
@@ -14,7 +14,7 @@ const defaultConfig = {
     url: "https://docs.authmoji.com",
     title: "Authmoji Docs",
     description:
-      "Authmoji delivers a robust API and app that helps you verify and secure users and future proof your business using emoji based two-factor authentication.",
+      "Authmoji delivers a robust API that helps you verify users and future proof your business using emoji based two-factor authentication.",
     images: [
       {
         url: "/banner.png",
