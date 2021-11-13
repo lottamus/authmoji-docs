@@ -1,25 +1,25 @@
 /** @type {import('next-seo').DefaultSeoProps} */
 const defaultConfig = {
-  defaultTitle: "Authmoji Docs",
-  titleTemplate: "%s | Authmoji Docs",
+  defaultTitle: "Authmoji Documentation",
+  titleTemplate: "%s | Authmoji Documentation",
   description:
     "Authmoji delivers a robust API that helps you verify users and future proof your business using emoji based two-factor authentication.",
   twitter: {
-    handle: "@authmoji",
+    handle: "@chrisnlott",
     site: "@authmoji",
     cardType: "summary_large_image",
   },
   openGraph: {
     type: "website",
     url: "https://docs.authmoji.com",
-    title: "Authmoji Docs",
+    title: "Authmoji Documentation",
     description:
       "Authmoji delivers a robust API that helps you verify users and future proof your business using emoji based two-factor authentication.",
     images: [
       {
-        url: "/banner.png",
-        width: 1388,
-        height: 760,
+        url: "https://docs.authmoji.com/meta.png",
+        width: 1200,
+        height: 630,
         alt: "Authmoji",
       },
     ],
